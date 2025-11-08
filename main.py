@@ -30,7 +30,7 @@ for m in genai.list_models():
 app.add_middleware(
     CORSMiddleware,
     # allow_origins=["http://localhost:5173"],
-    allow_origins=["*"],
+    allow_origins=["https://msme-credit-score-frontend-4ufko1noa.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
