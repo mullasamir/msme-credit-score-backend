@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn == 1.6.1
+joblib
+uvicorn == 0.38.0
+joblib == 1.4.2
+fastapi == 0.121.0
+numpy == 2.2.4
